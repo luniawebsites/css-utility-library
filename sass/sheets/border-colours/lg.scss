@@ -1,0 +1,162 @@
+/******************************************************************************/
+// LARGE+
+/******************************************************************************/
+
+@media screen and (min-width: 1280px)
+
+    {
+        /**********************************************************************/
+        // White
+        /**********************************************************************/
+
+        // All sides
+        [data-util~="bor:lg:wht"] {
+            border: solid 2px;
+            border-color: #FFF;
+            transform: var(--trn);
+        }
+
+        // Top
+        [data-util~="bor-t:lg:wht"] {
+            border-top: solid 2px;
+            border-color: #FFF;
+            transform: var(--trn);
+        }
+
+        // Right
+        [data-util~="bor-r:lg:wht"] {
+            border-right: solid 2px;
+            border-color: #FFF;
+            transform: var(--trn);
+        }
+
+        // Bottom
+        [data-util~="bor-b:lg:wht"] {
+            border-bottom: solid 2px;
+            border-color: #FFF;
+            transform: var(--trn);
+        }
+
+        // Left
+        [data-util~="bor-l:lg:wht"] {
+            border-left: solid 2px;
+            border-color: #FFF;
+            transform: var(--trn);
+        }
+
+        /**********************************************************************/
+        // Light
+        /**********************************************************************/
+
+        // All sides
+        [data-util~="bor:lg:lgt"] {
+            border: solid 2px;
+            border-color: var(--lgt);
+            transform: var(--trn);
+        }
+
+        // Top
+        [data-util~="bor-t:lg:lgt"] {
+            border-top: solid 2px;
+            border-color: var(--lgt);
+            transform: var(--trn);
+        }
+
+        // Right
+        [data-util~="bor-r:lg:lgt"] {
+            border-right: solid 2px;
+            border-color: var(--lgt);
+            transform: var(--trn);
+        }
+
+        // Bottom
+        [data-util~="bor-b:lg:lgt"] {
+            border-bottom: solid 2px;
+            border-color: var(--lgt);
+            transform: var(--trn);
+        }
+
+        // Left
+        [data-util~="bor-l:lg:lgt"] {
+            border-left: solid 2px;
+            border-color: var(--lgt);
+            transform: var(--trn);
+        }
+
+        /**********************************************************************/
+        // Medium
+        /**********************************************************************/
+        // All sides
+        [data-util~="bor:lg:med"] {
+            border: solid 2px;
+            border-color: var(--med);
+            transform: var(--trn);
+        }
+
+        // Top
+        [data-util~="bor-t:lg:med"] {
+            border-top: solid 2px;
+            border-color: var(--med);
+            transform: var(--trn);
+        }
+
+        // Right
+        [data-util~="bor-r:lg:med"] {
+            border-right: solid 2px;
+            border-color: var(--med);
+            transform: var(--trn);
+        }
+
+        // Bottom
+        [data-util~="bor-b:lg:med"] {
+            border-bottom: solid 2px;
+            border-color: var(--med);
+            transform: var(--trn);
+        }
+
+        // Left
+        [data-util~="bor-l:lg:med"] {
+            border-left: solid 2px;
+            border-color: var(--med);
+            transform: var(--trn);
+        }
+
+        /**********************************************************************/
+        // Dark
+        /**********************************************************************/
+
+        // All sides
+        [data-util~="bor:lg:drk"] {
+            border: solid 2px;
+            border-color: var(--drk);
+            transform: var(--trn);
+        }
+
+        // Top
+        [data-util~="bor-t:lg:drk"] {
+            border-top: solid 2px;
+            border-color: var(--drk);
+            transform: var(--trn);
+        }
+
+        // Right
+        [data-util~="bor-r:lg:drk"] {
+            border-right: solid 2px;
+            border-color: var(--drk);
+            transform: var(--trn);
+        }
+
+        // Bottom
+        [data-util~="bor-b:lg:drk"] {
+            border-bottom: solid 2px;
+            border-color: var(--drk);
+            transform: var(--trn);
+        }
+
+        // Left
+        [data-util~="bor-l:lg:drk"] {
+            border-left: solid 2px;
+            border-color: var(--drk);
+            transform: var(--trn);
+        }
+    }

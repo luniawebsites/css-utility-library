@@ -1,0 +1,55 @@
+/******************************************************************************/
+// SMALL+
+/******************************************************************************/
+
+@media screen and (min-width: 360px)
+
+    {
+        [data-util~="gut:sm:1,0"] {
+            margin: auto;
+            width: calc(100% - 2rem);
+        }
+
+        [data-util~="gut:sm:1,5"] {
+            margin: auto;
+            width: calc(100% - 3rem);
+        }
+
+        [data-util~="gut:sm:2,0"] {
+            margin: auto;
+            width: calc(100% - 4rem);
+        }
+
+        [data-util~="gut:sm:3,0"] {
+            margin: auto;
+            width: calc(100% - 6rem);
+        }
+    }
+
+/******************************************************************************/
+// SMALL-
+/******************************************************************************/
+
+@media screen and (min-width: 360px) and (max-width: 767px)
+
+    {
+        [data-util~="gut:sm.:1,0"] {
+            margin: auto;
+            width: calc(100% - 2rem);
+        }
+
+        [data-util~="gut:sm.:1,5"] {
+            margin: auto;
+            width: calc(100% - 3rem);
+        }
+
+        [data-util~="gut:sm.:2,0"] {
+            margin: auto;
+            width: calc(100% - 4rem);
+        }
+
+        [data-util~="gut:sm.:3,0"] {
+            margin: auto;
+            width: calc(100% - 6rem);
+        }
+    }

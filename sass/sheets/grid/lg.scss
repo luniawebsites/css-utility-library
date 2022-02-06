@@ -1,0 +1,23 @@
+/******************************************************************************/
+// LARGE+
+/******************************************************************************/
+
+@media screen and (min-width: 1280px)
+
+    {
+        [data-util~="grd:sm:300"],
+        [data-util~="grd:md:300"],
+        [data-util~="grd:lg:300"] {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            grid-gap: var(--siz-lg);
+        }
+
+        [data-util~="grd:sm.:400"],
+        [data-util~="grd:md.:400"],
+        [data-util~="grd:lg.:400"] {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+            grid-gap: var(--siz-lg);
+        }
+    }

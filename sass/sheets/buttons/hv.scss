@@ -1,0 +1,63 @@
+@mixin prm {
+    border: solid 2px #FFF;
+    background-image: linear-gradient(to bottom, var(--blu-drk), var(--blu-drk));
+    color: #FFF;
+}
+
+@mixin sec {
+    border: solid 2px #FFF;
+    background-image: linear-gradient(to bottom, var(--ylw-drk), var(--ylw-drk));
+    color: #FFF;
+}
+
+/******************************************************************************/
+// HOVER
+/******************************************************************************/
+
+@media (hover: hover)
+
+    {
+        [data-util*="btn:sm:"]:hover,
+        [data-util*="btn:md:"]:hover,
+        [data-util*="btn:lg:"]:hover {
+            @include prm;
+        }
+
+        [data-util*="btn-sec:sm:"]:hover,
+        [data-util*="btn-sec:md:"]:hover,
+        [data-util*="btn-sec:lg:"]:hover {
+            @include sec;
+        }
+    }
+
+/******************************************************************************/
+// SMALL- & HOVER
+/******************************************************************************/
+
+@media screen and (min-width: 360px) and (max-width: 767px) and (hover: hover)
+
+    {
+        [data-util*="btn:sm.:"]:hover {
+            @include prm;
+        }
+
+        [data-util*="btn-sec:sm.:"]:hover {
+            @include sec;
+        }
+    }
+
+/******************************************************************************/
+// MEDIUM- & HOVER
+/******************************************************************************/
+
+@media screen and (min-width: 768px) and (max-width: 1279px) and (hover: hover)
+
+    {
+        [data-util*="btn:sm.:"]:hover {
+            @include prm;
+        }
+
+        [data-util*="btn-sec:sm.:"]:hover {
+            @include sec;
+        }
+    }

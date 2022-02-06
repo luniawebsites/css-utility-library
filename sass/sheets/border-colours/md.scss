@@ -1,0 +1,326 @@
+/******************************************************************************/
+// MEDIUM+
+/******************************************************************************/
+
+@media screen and (min-width: 768px)
+
+    {
+        /**********************************************************************/
+        // White
+        /**********************************************************************/
+
+        // All sides
+        [data-util~="bor:md:wht"] {
+            border: solid 2px;
+            border-color: #FFF;
+            transform: var(--trn);
+        }
+
+        // Top
+        [data-util~="bor-t:md:wht"] {
+            border-top: solid 2px;
+            border-color: #FFF;
+            transform: var(--trn);
+        }
+
+        // Right
+        [data-util~="bor-r:md:wht"] {
+            border-right: solid 2px;
+            border-color: #FFF;
+            transform: var(--trn);
+        }
+
+        // Bottom
+        [data-util~="bor-b:md:wht"] {
+            border-bottom: solid 2px;
+            border-color: #FFF;
+            transform: var(--trn);
+        }
+
+        // Left
+        [data-util~="bor-l:md:wht"] {
+            border-left: solid 2px;
+            border-color: #FFF;
+            transform: var(--trn);
+        }
+
+        /**********************************************************************/
+        // Light
+        /**********************************************************************/
+
+        // All sides
+        [data-util~="bor:md:lgt"] {
+            border: solid 2px;
+            border-color: var(--lgt);
+            transform: var(--trn);
+        }
+
+        // Top
+        [data-util~="bor-t:md:lgt"] {
+            border-top: solid 2px;
+            border-color: var(--lgt);
+            transform: var(--trn);
+        }
+
+        // Right
+        [data-util~="bor-r:md:lgt"] {
+            border-right: solid 2px;
+            border-color: var(--lgt);
+            transform: var(--trn);
+        }
+
+        // Bottom
+        [data-util~="bor-b:md:lgt"] {
+            border-bottom: solid 2px;
+            border-color: var(--lgt);
+            transform: var(--trn);
+        }
+
+        // Left
+        [data-util~="bor-l:md:lgt"] {
+            border-left: solid 2px;
+            border-color: var(--lgt);
+            transform: var(--trn);
+        }
+
+        /**********************************************************************/
+        // Medium
+        /**********************************************************************/
+        // All sides
+        [data-util~="bor:md:med"] {
+            border: solid 2px;
+            border-color: var(--med);
+            transform: var(--trn);
+        }
+
+        // Top
+        [data-util~="bor-t:md:med"] {
+            border-top: solid 2px;
+            border-color: var(--med);
+            transform: var(--trn);
+        }
+
+        // Right
+        [data-util~="bor-r:md:med"] {
+            border-right: solid 2px;
+            border-color: var(--med);
+            transform: var(--trn);
+        }
+
+        // Bottom
+        [data-util~="bor-b:md:med"] {
+            border-bottom: solid 2px;
+            border-color: var(--med);
+            transform: var(--trn);
+        }
+
+        // Left
+        [data-util~="bor-l:md:med"] {
+            border-left: solid 2px;
+            border-color: var(--med);
+            transform: var(--trn);
+        }
+
+        /**********************************************************************/
+        // Dark
+        /**********************************************************************/
+
+        // All sides
+        [data-util~="bor:md:drk"] {
+            border: solid 2px;
+            border-color: var(--drk);
+            transform: var(--trn);
+        }
+
+        // Top
+        [data-util~="bor-t:md:drk"] {
+            border-top: solid 2px;
+            border-color: var(--drk);
+            transform: var(--trn);
+        }
+
+        // Right
+        [data-util~="bor-r:md:drk"] {
+            border-right: solid 2px;
+            border-color: var(--drk);
+            transform: var(--trn);
+        }
+
+        // Bottom
+        [data-util~="bor-b:md:drk"] {
+            border-bottom: solid 2px;
+            border-color: var(--drk);
+            transform: var(--trn);
+        }
+
+        // Left
+        [data-util~="bor-l:md:drk"] {
+            border-left: solid 2px;
+            border-color: var(--drk);
+            transform: var(--trn);
+        }
+    }
+
+
+/******************************************************************************/
+// MEDIUM-
+/******************************************************************************/
+
+@media screen and (min-width: 768px) and (max-width: 1279px)
+
+    {
+        /**********************************************************************/
+        // White
+        /**********************************************************************/
+
+        // All sides
+        [data-util~="bor:md.:wht"] {
+            border: solid 2px;
+            border-color: #FFF;
+            transform: var(--trn);
+        }
+
+        // Top
+        [data-util~="bor-t:md.:wht"] {
+            border-top: solid 2px;
+            border-color: #FFF;
+            transform: var(--trn);
+        }
+
+        // Right
+        [data-util~="bor-r:md.:wht"] {
+            border-right: solid 2px;
+            border-color: #FFF;
+            transform: var(--trn);
+        }
+
+        // Bottom
+        [data-util~="bor-b:md.:wht"] {
+            border-bottom: solid 2px;
+            border-color: #FFF;
+            transform: var(--trn);
+        }
+
+        // Left
+        [data-util~="bor-l:md.:wht"] {
+            border-left: solid 2px;
+            border-color: #FFF;
+            transform: var(--trn);
+        }
+
+        /**********************************************************************/
+        // Light
+        /**********************************************************************/
+
+        // All sides
+        [data-util~="bor:md.:lgt"] {
+            border: solid 2px;
+            border-color: var(--lgt);
+            transform: var(--trn);
+        }
+
+        // Top
+        [data-util~="bor-t:md.:lgt"] {
+            border-top: solid 2px;
+            border-color: var(--lgt);
+            transform: var(--trn);
+        }
+
+        // Right
+        [data-util~="bor-r:md.:lgt"] {
+            border-right: solid 2px;
+            border-color: var(--lgt);
+            transform: var(--trn);
+        }
+
+        // Bottom
+        [data-util~="bor-b:md.:lgt"] {
+            border-bottom: solid 2px;
+            border-color: var(--lgt);
+            transform: var(--trn);
+        }
+
+        // Left
+        [data-util~="bor-l:md.:lgt"] {
+            border-left: solid 2px;
+            border-color: var(--lgt);
+            transform: var(--trn);
+        }
+
+        /**********************************************************************/
+        // Medium
+        /**********************************************************************/
+        // All sides
+        [data-util~="bor:md.:med"] {
+            border: solid 2px;
+            border-color: var(--med);
+            transform: var(--trn);
+        }
+
+        // Top
+        [data-util~="bor-t:md.:med"] {
+            border-top: solid 2px;
+            border-color: var(--med);
+            transform: var(--trn);
+        }
+
+        // Right
+        [data-util~="bor-r:md.:med"] {
+            border-right: solid 2px;
+            border-color: var(--med);
+            transform: var(--trn);
+        }
+
+        // Bottom
+        [data-util~="bor-b:md.:med"] {
+            border-bottom: solid 2px;
+            border-color: var(--med);
+            transform: var(--trn);
+        }
+
+        // Left
+        [data-util~="bor-l:md.:med"] {
+            border-left: solid 2px;
+            border-color: var(--med);
+            transform: var(--trn);
+        }
+
+        /**********************************************************************/
+        // Dark
+        /**********************************************************************/
+
+        // All sides
+        [data-util~="bor:md.:drk"] {
+            border: solid 2px;
+            border-color: var(--drk);
+            transform: var(--trn);
+        }
+
+        // Top
+        [data-util~="bor-t:md.:drk"] {
+            border-top: solid 2px;
+            border-color: var(--drk);
+            transform: var(--trn);
+        }
+
+        // Right
+        [data-util~="bor-r:md.:drk"] {
+            border-right: solid 2px;
+            border-color: var(--drk);
+            transform: var(--trn);
+        }
+
+        // Bottom
+        [data-util~="bor-b:md.:drk"] {
+            border-bottom: solid 2px;
+            border-color: var(--drk);
+            transform: var(--trn);
+        }
+
+        // Left
+        [data-util~="bor-l:md.:drk"] {
+            border-left: solid 2px;
+            border-color: var(--drk);
+            transform: var(--trn);
+        }
+    }

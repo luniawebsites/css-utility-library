@@ -1,0 +1,167 @@
+/******************************************************************************/
+// LARGE+
+/******************************************************************************/
+
+@media screen and (min-width: 1280px)
+
+    {
+        /**********************************************************************/
+        // 0.5rem
+        /**********************************************************************/
+
+        // Top to bottom
+
+        [data-util~="gap:lg:0,5"] > * {
+            margin: 0;
+        }
+
+        [data-util~="gap:lg:0,5"] > *:not(:first-child) {
+            margin-top: 1rem * 0.25;
+        }
+
+        [data-util~="gap:lg:0,5"] > *:not(:last-child) {
+            margin-bottom: 1rem * 0.25;
+        }
+
+        // Left to right
+
+        [data-util*="row:lg:"][data-util~="gap:lg:0,5"] > * {
+            margin: 0;
+        }
+
+        [data-util*="row:lg:"][data-util~="gap:lg:0,5"] > *:not(:last-child) {
+            margin-right: 1rem * 0.25;
+        }
+
+        [data-util*="row:lg:"][data-util~="gap:lg:0,5"] > *:not(:first-child) {
+            margin-left: 1rem * 0.25;
+        }
+
+        /**********************************************************************/
+        // 1rem
+        /**********************************************************************/
+
+        // Top to bottom
+
+        [data-util~="gap:lg:1,0"] > * {
+            margin: 0;
+        }
+
+        [data-util~="gap:lg:1,0"] > *:not(:first-child) {
+            margin-top: 1rem * 0.5;
+        }
+
+        [data-util~="gap:lg:1,0"] > *:not(:last-child) {
+            margin-bottom: 1rem * 0.5;
+        }
+
+        // Left to right
+
+        [data-util*="row:lg:"][data-util~="gap:lg:1,0"] > * {
+            margin: 0;
+        }
+
+        [data-util*="row:lg:"][data-util~="gap:lg:1,0"] > *:not(:last-child) {
+            margin-right: 1rem * 0.5;
+        }
+
+        [data-util*="row:lg:"][data-util~="gap:lg:1,0"] > *:not(:first-child) {
+            margin-left: 1rem * 0.5;
+        }
+
+        /**********************************************************************/
+        // 1.5rem
+        /**********************************************************************/
+
+        // Top to bottom
+
+        [data-util~="gap:lg:1,5"] > * {
+            margin: 0;
+        }
+
+        [data-util~="gap:lg:1,5"] > *:not(:first-child) {
+            margin-top: 1rem * 0.75;
+        }
+
+        [data-util~="gap:lg:1,5"] > *:not(:last-child) {
+            margin-bottom: 1rem * 0.75;
+        }
+
+        // Left to right
+
+        [data-util*="row:lg:"][data-util~="gap:lg:1,5"] > * {
+            margin: 0;
+        }
+
+        [data-util*="row:lg:"][data-util~="gap:lg:1,5"] > *:not(:last-child) {
+            margin-right: 1rem * 0.75;
+        }
+
+        [data-util*="row:lg:"][data-util~="gap:lg:1,5"] > *:not(:first-child) {
+            margin-left: 1rem * 0.75;
+        }
+
+        /**********************************************************************/
+        // 2rem
+        /**********************************************************************/
+
+        // Top to bottom
+
+        [data-util~="gap:lg:2,0"] > * {
+            margin: 0;
+        }
+
+        [data-util~="gap:lg:2,0"] > *:not(:first-child) {
+            margin-top: 1rem;
+        }
+
+        [data-util~="gap:lg:2,0"] > *:not(:last-child) {
+            margin-bottom: 1rem;
+        }
+
+        // Left to right
+
+        [data-util*="row:lg:"][data-util~="gap:lg:2,0"] > * {
+            margin: 0;
+        }
+
+        [data-util*="row:lg:"][data-util~="gap:lg:2,0"] > *:not(:last-child) {
+            margin-right: 1rem;
+        }
+
+        [data-util*="row:lg:"][data-util~="gap:lg:2,0"] > *:not(:first-child) {
+            margin-left: 1rem;
+        }
+
+        /**********************************************************************/
+        // 3rem
+        /**********************************************************************/
+
+        // Top to bottom
+
+        [data-util~="gap:lg:3,0"] > * {
+            margin: 0;
+        }
+
+        [data-util~="gap:lg:3,0"] > *:not(:first-child) {
+            margin-top: 1.5rem;
+        }
+
+        [data-util~="gap:lg:3,0"] > *:not(:last-child) {
+            margin-bottom: 1.5rem;
+        }
+
+        // Left to right
+
+        [data-util*="row:lg:"][data-util~="gap:lg:3,0"] > * {
+            margin: 0;
+        }
+
+        [data-util*="row:lg:"][data-util~="gap:lg:3,0"] > *:not(:last-child) {
+            margin-right: 1.5rem;
+        }
+
+        [data-util*="row:lg:"][data-util~="gap:lg:3,0"] > *:not(:first-child) {
+            margin-left: 1.5rem;
+        }
+    }

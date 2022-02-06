@@ -1,0 +1,35 @@
+/******************************************************************************/
+// SMALL+
+/******************************************************************************/
+
+@media screen and (min-width: 360px)
+
+    {
+        [data-util~="dis:sm:hid"] {
+            display: none !important;
+            padding: 0;
+        }
+
+        [data-util~="dis:sm:hid-emp"]:empty {
+            display: none;
+            padding: 0;
+        }
+    }
+
+/******************************************************************************/
+// SMALL-
+/******************************************************************************/
+
+@media screen and (min-width: 360px) and (max-width: 767px)
+
+    {
+        [data-util~="dis:sm.:hid"] {
+            display: none !important;
+            padding: 0;
+        }
+
+        [data-util~="dis:sm.:hid-emp"]:empty {
+            display: none;
+            padding: 0;
+        }
+    }

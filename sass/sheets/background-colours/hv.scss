@@ -1,0 +1,91 @@
+@media (hover: hover)
+
+    {
+        [data-util~="bgd:hv:wht"]:hover {
+            background-color: #FFF;
+        }
+
+        [data-util~="bgd:hv:red-lgt"]:hover {
+            background-color: var(--red-lgt);
+        }
+
+        [data-util~="bgd:hv:red"]:hover {
+            background-color: var(--red);
+        }
+
+        [data-util~="bgd:hv:red-drk"]:hover {
+            background-color: var(--red-drk);
+        }
+
+        [data-util~="bgd:hv:grn-lgt"]:hover {
+            background-color: var(--grn-lgt);
+        }
+
+        [data-util~="bgd:hv:grn"]:hover {
+            background-color: var(--grn);
+        }
+
+        [data-util~="bgd:hv:grn-drk"]:hover {
+            background-color: var(--grn-drk);
+        }
+
+        [data-util~="bgd:hv:blu-lgt"]:hover {
+            background-color: var(--blu-lgt);
+        }
+
+        [data-util~="bgd:hv:blu"]:hover {
+            background-color: var(--blu);
+        }
+
+        [data-util~="bgd:hv:blu-drk"]:hover {
+            background-color: var(--blu-drk);
+        }
+
+        [data-util~="bgd:hv:ylw-lgt"]:hover {
+            background-color: var(--ylw-lgt);
+        }
+
+        [data-util~="bgd:hv:ylw"]:hover {
+            background-color: var(--ylw);
+        }
+
+        [data-util~="bgd:hv:ylw-drk"]:hover {
+            background-color: var(--ylw-drk);
+        }
+
+        [data-util~="bgd:hv:pur-lgt"]:hover {
+            background-color: var(--pur-lgt);
+        }
+
+        [data-util~="bgd:hv:pur"]:hover {
+            background-color: var(--pur);
+        }
+
+        [data-util~="bgd:hv:pur-drk"]:hover {
+            background-color: var(--pur-drk);
+        }
+
+        [data-util~="bgd:hv:gry-lgt:sm"]:hover {
+            background-color: var(--gry-lgt);
+        }
+
+        [data-util~="bgd:hv:gry:sm"]:hover {
+            background-color: var(--gry);
+        }
+
+        [data-util~="bgd:hv:gry-drk:sm"]:hover {
+            background-color: var(--gry-drk);
+        }
+
+        [data-util~="bgd:hv:lgt:sm"]:hover {
+            background-color: var(--lgt);
+        }
+
+        [data-util~="bgd:hv:med:sm"]:hover {
+            background-color: var(--med);
+        }
+
+        [data-util~="bgd:hv:drk:sm"]:hover {
+            background-color: var(--drk);
+        }
+    }

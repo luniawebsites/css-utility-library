@@ -1,0 +1,243 @@
+/******************************************************************************/
+// Media queries:
+    // LARGE+
+/******************************************************************************/
+
+
+/******************************************************************************/
+// LARGE+
+/******************************************************************************/
+
+@media screen and (min-width: 1280px)
+
+    {
+        // Stretch
+
+        [data-util~="col:lg:str"] {
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+            justify-content: flex-start;
+        }
+
+        [data-util~="row:lg:str"] {
+            display: flex;
+            flex-direction: row;
+            align-items: stretch;
+            justify-content: flex-start;
+        }
+
+        // Space between
+
+        [data-util~="col:lg:btw"] {
+            display: flex;
+            flex-direction: column;
+            align-items: space-between;
+            justify-content: flex-start;
+        }
+
+        [data-util~="row:lg:btw"] {
+            display: flex;
+            flex-direction: row;
+            align-items: space-between;
+            justify-content: flex-start;
+        }
+
+        // Left & top
+
+        [data-util~="col:lg:lt"] {
+            display: flex;
+            flex-direction: column;
+        	align-items: flex-start;
+        	justify-content: flex-start;
+        }
+
+        [data-util~="row:lg:lt"] {
+            display: flex;
+            flex-direction: row;
+            align-items: flex-start;
+            justify-content: flex-start;
+        }
+
+        // Left & centre
+
+        [data-util~="col:lg:lc"] {
+            display: flex;
+            flex-direction: column;
+        	align-items: flex-start;
+        	justify-content: center;
+        }
+
+        [data-util~="row:lg:lc"] {
+            display: flex;
+            flex-direction: row;
+        	align-items: center;
+        	justify-content: flex-start;
+        }
+
+        // Left & bottom
+
+        [data-util~="col:lg:lb"] {
+            display: flex;
+            flex-direction: column;
+        	align-items: flex-start;
+        	justify-content: flex-end;
+        }
+
+        [data-util~="row:lg:lb"] {
+            display: flex;
+            flex-direction: row;
+        	align-items: flex-end;
+        	justify-content: flex-start;
+        }
+
+        // Left & justify
+
+        // [data-util~="col:lg:lj"] {
+        //     display: flex;
+        //     flex-direction: column;
+        // 	align-items: flex-start;
+        // 	justify-content: space-between;
+        // }
+
+        // Centre & top
+
+        [data-util~="col:lg:ct"] {
+            display: flex;
+            flex-direction: column;
+        	align-items: center;
+        	justify-content: flex-start;
+        }
+
+        [data-util~="row:lg:ct"] {
+            display: flex;
+            flex-direction: row;
+        	align-items: flex-start;
+        	justify-content: center;
+        }
+
+        // Centre & centre
+
+        [data-util~="col:lg:cc"] {
+            display: flex;
+            flex-direction: column;
+        	align-items: center;
+        	justify-content: center;
+        }
+
+        [data-util~="row:lg:cc"] {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+
+        // Centre & bottom
+
+        [data-util~="col:lg:cb"] {
+            display: flex;
+            flex-direction: column;
+        	align-items: center;
+        	justify-content: flex-end;
+        }
+
+        [data-util~="row:lg:cb"] {
+            display: flex;
+            flex-direction: row;
+        	align-items: flex-end;
+        	justify-content: center;
+        }
+
+        // Centre & justify
+
+        // [data-util~="col:lg:cj"] {
+        //     display: flex;
+        //     flex-direction: column;
+        // 	align-items: center;
+        // 	justify-content: space-between;
+        // }
+
+        // Right & top
+
+        [data-util~="col:lg:rt"] {
+            display: flex;
+            flex-direction: column;
+        	align-items: flex-end;
+        	justify-content: flex-start;
+        }
+
+        [data-util~="row:lg:rt"] {
+            display: flex;
+            flex-direction: row;
+        	align-items: flex-start;
+        	justify-content: flex-end;
+        }
+
+        // Right & centre
+
+        [data-util~="col:lg:rc"] {
+            display: flex;
+            flex-direction: column;
+        	align-items: flex-end;
+        	justify-content: center;
+        }
+
+        [data-util~="row:lg:rc"] {
+            display: flex;
+            flex-direction: row;
+        	align-items: center;
+        	justify-content: flex-end;
+        }
+
+        // Right & bottom
+
+        [data-util~="col:lg:rb"] {
+            display: flex;
+            flex-direction: column;
+        	align-items: flex-end;
+        	justify-content: flex-end;
+        }
+
+        [data-util~="row:lg:rb"] {
+            display: flex;
+            flex-direction: row;
+        	align-items: flex-end;
+        	justify-content: flex-start;
+        }
+
+        // Right & justify
+
+        // [data-util~="col:lg:rj"] {
+        //     display: flex;
+        //     flex-direction: column;
+        // 	align-items: flex-end;
+        // 	justify-content: space-between;
+        // }
+
+        // Justify & top
+
+        // [data-util~="row:lg:jt"] {
+        //     display: flex;
+        //     flex-direction: row;
+        // 	align-items: flex-start;
+        // 	justify-content: space-between;
+        // }
+
+        // Justify & centre
+
+        // [data-util~="row:lg:jc"] {
+        //     display: flex;
+        //     flex-direction: row;
+        // 	align-items: center;
+        // 	justify-content: space-between;
+        // }
+
+        // Justify & bottom
+
+        // [data-util~="row:lg:jb"] {
+        //     display: flex;
+        //     flex-direction: row;
+        // 	align-items: flex-end;
+        // 	justify-content: space-between;
+        // }
+    }

@@ -1,0 +1,206 @@
+/******************************************************************************/
+// MEDIUM+
+/******************************************************************************/
+
+@media screen and (min-width: 768px)
+
+    {
+        /**********************************************************************/
+        // Fonts
+        /**********************************************************************/
+
+        [data-util~="txt:md:std"] {
+            font-family: var(--txt-std);
+        }
+
+        [data-util~="txt:md:fix"] {
+            font-family: var(--txt-fix);
+        }
+
+        /**********************************************************************/
+        // Sizes
+        /**********************************************************************/
+
+        [data-util~="txt:md:0"] {
+            font-size: var(--siz-0);
+        }
+
+        [data-util~="txt:md:1"] {
+            font-size: var(--siz-1);
+        }
+
+        [data-util~="txt:md:2"] {
+            font-size: var(--siz-2);
+        }
+
+        [data-util~="txt:md:3"] {
+            font-size: var(--siz-3);
+        }
+
+        [data-util~="txt:md:4"] {
+            font-size: var(--siz-4);
+        }
+
+        [data-util~="txt:md:5"] {
+            font-size: var(--siz-5);
+        }
+
+        [data-util~="txt:md:6"] {
+            font-size: var(--siz-6);
+        }
+
+        [data-util~="txt:md:7"] {
+            font-size: var(--siz-7);
+        }
+
+        [data-util~="txt:md:8"] {
+            font-size: var(--siz-8);
+        }
+
+        /**********************************************************************/
+        // Alignments
+        /**********************************************************************/
+
+        [data-util~="txt:md:l"] {
+            text-align: left;
+        }
+
+        [data-util~="txt:md:c"] {
+            text-align: center;
+        }
+
+        [data-util~="txt:md:r"] {
+            text-align: right;
+        }
+
+        [data-util~="txt:md:j"] {
+            text-align: justify;
+            text-justify: inter-word;
+        }
+
+        [data-util~="txt:md:jc"] {
+            text-align: justify;
+            text-justify: inter-word;
+            text-align-last: center;
+        }
+
+        /**********************************************************************/
+        // Structure
+        /**********************************************************************/
+
+        [data-util~="txt:md:nbr"] {
+            white-space: pre;
+        }
+
+        [data-util~="txt:md:trn"] {
+            display: table-row;
+            overflow: hidden;
+            white-space: nowrap;
+            min-width: 0;
+            text-overflow: ellipsis;
+        }
+    }
+
+
+/******************************************************************************/
+// MEDIUM-
+/******************************************************************************/
+
+@media screen and (min-width: 768px) and (max-width: 1279px)
+
+    {
+        /**********************************************************************/
+        // Fonts
+        /**********************************************************************/
+
+        [data-util~="txt:md.:std"] {
+            font-family: var(--txt-std);
+        }
+
+        [data-util~="txt:md.:fix"] {
+            font-family: var(--txt-fix);
+        }
+
+        /**********************************************************************/
+        // Sizes
+        /**********************************************************************/
+
+        [data-util~="txt:md.:0"] {
+            font-size: var(--siz-0);
+        }
+
+        [data-util~="txt:md.:1"] {
+            font-size: var(--siz-1);
+        }
+
+        [data-util~="txt:md.:2"] {
+            font-size: var(--siz-2);
+        }
+
+        [data-util~="txt:md.:3"] {
+            font-size: var(--siz-3);
+        }
+
+        [data-util~="txt:md.:4"] {
+            font-size: var(--siz-4);
+        }
+
+        [data-util~="txt:md.:5"] {
+            font-size: var(--siz-5);
+        }
+
+        [data-util~="txt:md.:6"] {
+            font-size: var(--siz-6);
+        }
+
+        [data-util~="txt:md.:7"] {
+            font-size: var(--siz-7);
+        }
+
+        [data-util~="txt:md.:8"] {
+            font-size: var(--siz-8);
+        }
+
+        /**********************************************************************/
+        // Alignments
+        /**********************************************************************/
+
+        [data-util~="txt:md.:l"] {
+            text-align: left;
+        }
+
+        [data-util~="txt:md.:c"] {
+            text-align: center;
+        }
+
+        [data-util~="txt:md.:r"] {
+            text-align: right;
+        }
+
+        [data-util~="txt:md.:j"] {
+            text-align: justify;
+            text-justify: inter-word;
+        }
+
+        [data-util~="txt:md.:jc"] {
+            text-align: justify;
+            text-justify: inter-word;
+            text-align-last: center;
+        }
+
+        /**********************************************************************/
+        // Structure
+        /**********************************************************************/
+
+        [data-util~="txt:md.:nbr"] {
+            white-space: pre;
+        }
+
+        [data-util~="txt:md.:trn"] {
+            display: table-row;
+            overflow: hidden;
+            white-space: nowrap;
+            min-width: 0;
+            text-overflow: ellipsis;
+        }
+    }

@@ -1,0 +1,47 @@
+/******************************************************************************/
+// SMALL+
+/******************************************************************************/
+
+@media screen and (min-width: 360px)
+
+    {
+        [data-util~="out:sm:wht"] {
+            box-shadow: 0 0 0 2px #FFF;
+        }
+
+        [data-util~="out:sm:lgt"] {
+            box-shadow: 0 0 0 2px var(--lgt);
+        }
+
+        [data-util~="out:sm:med"] {
+            box-shadow: 0 0 0 2px var(--med);
+        }
+
+        [data-util~="out:sm:drk"] {
+            box-shadow: 0 0 0 2px var(--drk);
+        }
+    }
+
+/******************************************************************************/
+// SMALL-
+/******************************************************************************/
+
+@media screen and (min-width: 360px) and (max-width: 767px)
+
+    {
+        [data-util~="out:sm.:wht"] {
+            box-shadow: 0 0 0 2px #FFF;
+        }
+
+        [data-util~="out:sm.:lgt"] {
+            box-shadow: 0 0 0 2px var(--lgt);
+        }
+
+        [data-util~="out:sm.:med"] {
+            box-shadow: 0 0 0 2px var(--med);
+        }
+
+        [data-util~="out:sm.:drk"] {
+            box-shadow: 0 0 0 2px var(--drk);
+        }
+    }

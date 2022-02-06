@@ -1,0 +1,23 @@
+/******************************************************************************/
+// LARGE+
+/******************************************************************************/
+
+@media screen and (min-width: 1280px)
+
+    {
+        [data-util~="out:lg:wht"] {
+            box-shadow: 0 0 0 2px #FFF;
+        }
+
+        [data-util~="out:lg:lgt"] {
+            box-shadow: 0 0 0 2px var(--lgt);
+        }
+
+        [data-util~="out:lg:med"] {
+            box-shadow: 0 0 0 2px var(--med);
+        }
+
+        [data-util~="out:lg:drk"] {
+            box-shadow: 0 0 0 2px var(--drk);
+        }
+    }

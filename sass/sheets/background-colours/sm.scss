@@ -1,0 +1,234 @@
+/******************************************************************************/
+// SMALL+
+/******************************************************************************/
+
+@media screen and (min-width: 360px)
+
+    {
+        [data-util~="bgd:sm:wht"] {
+            background-color: #FFF;
+        }
+
+        [data-util~="bgd:sm:red-lgt"] {
+            background-color: var(--red-lgt);
+            transition: var(--trn);
+        }
+
+        [data-util~="bgd:sm:red"] {
+            background-color: var(--red);
+            transition: var(--trn);
+        }
+
+        [data-util~="bgd:sm:red-drk"] {
+            background-color: var(--red-drk);
+            transition: var(--trn);
+        }
+
+        [data-util~="bgd:sm:grn-lgt"] {
+            background-color: var(--grn-lgt);
+            transition: var(--trn);
+        }
+
+        [data-util~="bgd:sm:grn"] {
+            background-color: var(--grn);
+            transition: var(--trn);
+        }
+
+        [data-util~="bgd:sm:grn-drk"] {
+            background-color: var(--grn-drk);
+            transition: var(--trn);
+        }
+
+        [data-util~="bgd:sm:blu-lgt"] {
+            background-color: var(--blu-lgt);
+            transition: var(--trn);
+        }
+
+        [data-util~="bgd:sm:blu"] {
+            background-color: var(--blu);
+            transition: var(--trn);
+        }
+
+        [data-util~="bgd:sm:blu-drk"] {
+            background-color: var(--blu-drk);
+            transition: var(--trn);
+        }
+
+        [data-util~="bgd:sm:ylw-lgt"] {
+            background-color: var(--ylw-lgt);
+            transition: var(--trn);
+        }
+
+        [data-util~="bgd:sm:ylw"] {
+            background-color: var(--ylw);
+            transition: var(--trn);
+        }
+
+        [data-util~="bgd:sm:ylw-drk"] {
+            background-color: var(--ylw-drk);
+            transition: var(--trn);
+        }
+
+        [data-util~="bgd:sm:pur-lgt"] {
+            background-color: var(--pur-lgt);
+            transition: var(--trn);
+        }
+
+        [data-util~="bgd:sm:pur"] {
+            background-color: var(--pur);
+            transition: var(--trn);
+        }
+
+        [data-util~="bgd:sm:pur-drk"] {
+            background-color: var(--pur-drk);
+            transition: var(--trn);
+        }
+
+        [data-util~="bgd:sm:gry-lgt"] {
+            background-color: var(--gry-lgt);
+            transition: var(--trn);
+        }
+
+        [data-util~="bgd:sm:gry"] {
+            background-color: var(--gry);
+            transition: var(--trn);
+        }
+
+        [data-util~="bgd:sm:gry-drk"] {
+            background-color: var(--gry-drk);
+            transition: var(--trn);
+        }
+
+        [data-util~="bgd:sm:lgt"] {
+            background-color: var(--lgt);
+            transition: var(--trn);
+        }
+
+        [data-util~="bgd:sm:med"] {
+            background-color: var(--med);
+            transition: var(--trn);
+        }
+
+        [data-util~="bgd:sm:drk"] {
+            background-color: var(--drk);
+            transition: var(--trn);
+        }
+    }
+
+
+/******************************************************************************/
+// SMALL-
+/******************************************************************************/
+
+@media screen and (min-width: 360px) and (max-width: 767px)
+
+    {
+        [data-util~="bgd:sm.:wht"] {
+            background-color: #FFF;
+        }
+
+        [data-util~="bgd:sm.:red-lgt"] {
+            background-color: var(--red-lgt);
+            transition: var(--trn);
+        }
+
+        [data-util~="bgd:sm.:red"] {
+            background-color: var(--red);
+            transition: var(--trn);
+        }
+
+        [data-util~="bgd:sm.:red-drk"] {
+            background-color: var(--red-drk);
+            transition: var(--trn);
+        }
+
+        [data-util~="bgd:sm.:grn-lgt"] {
+            background-color: var(--grn-lgt);
+            transition: var(--trn);
+        }
+
+        [data-util~="bgd:sm.:grn"] {
+            background-color: var(--grn);
+            transition: var(--trn);
+        }
+
+        [data-util~="bgd:sm.:grn-drk"] {
+            background-color: var(--grn-drk);
+            transition: var(--trn);
+        }
+
+        [data-util~="bgd:sm.:blu-lgt"] {
+            background-color: var(--blu-lgt);
+            transition: var(--trn);
+        }
+
+        [data-util~="bgd:sm.:blu"] {
+            background-color: var(--blu);
+            transition: var(--trn);
+        }
+
+        [data-util~="bgd:sm.:blu-drk"] {
+            background-color: var(--blu-drk);
+            transition: var(--trn);
+        }
+
+        [data-util~="bgd:sm.:ylw-lgt"] {
+            background-color: var(--ylw-lgt);
+            transition: var(--trn);
+        }
+
+        [data-util~="bgd:sm.:ylw"] {
+            background-color: var(--ylw);
+            transition: var(--trn);
+        }
+
+        [data-util~="bgd:sm.:ylw-drk"] {
+            background-color: var(--ylw-drk);
+            transition: var(--trn);
+        }
+
+        [data-util~="bgd:sm.:pur-lgt"] {
+            background-color: var(--pur-lgt);
+            transition: var(--trn);
+        }
+
+        [data-util~="bgd:sm.:pur"] {
+            background-color: var(--pur);
+            transition: var(--trn);
+        }
+
+        [data-util~="bgd:sm.:pur-drk"] {
+            background-color: var(--pur-drk);
+            transition: var(--trn);
+        }
+
+        [data-util~="bgd:sm.:gry-lgt"] {
+            background-color: var(--gry-lgt);
+            transition: var(--trn);
+        }
+
+        [data-util~="bgd:sm.:gry"] {
+            background-color: var(--gry);
+            transition: var(--trn);
+        }
+
+        [data-util~="bgd:sm.:gry-drk"] {
+            background-color: var(--gry-drk);
+            transition: var(--trn);
+        }
+
+        [data-util~="bgd:sm.:lgt"] {
+            background-color: var(--lgt);
+            transition: var(--trn);
+        }
+
+        [data-util~="bgd:sm.:med"] {
+            background-color: var(--med);
+            transition: var(--trn);
+        }
+
+        [data-util~="bgd:sm.:drk"] {
+            background-color: var(--drk);
+            transition: var(--trn);
+        }
+    }

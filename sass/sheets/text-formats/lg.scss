@@ -1,0 +1,133 @@
+/******************************************************************************/
+// LARGE+
+/******************************************************************************/
+
+@media screen and (min-width: 1280px)
+
+    {
+        /**********************************************************************/
+        // Colours
+        /**********************************************************************/
+
+        [data-util~="txt:lg:wht"] {
+            color: #FFF;
+            transition: var(--trn);
+        }
+
+        [data-util~="txt:lg:red-lgt"] {
+            color: var(--red-lgt);
+            transition: var(--trn);
+        }
+
+        [data-util~="txt:lg:red"] {
+            color: var(--red);
+            transition: var(--trn);
+        }
+
+        [data-util~="txt:lg:red-drk"] {
+            color: var(--red-drk);
+            transition: var(--trn);
+        }
+
+        [data-util~="txt:lg:grn-lgt"] {
+            color: var(--grn-lgt);
+            transition: var(--trn);
+        }
+
+        [data-util~="txt:lg:grn"] {
+            color: var(--grn);
+            transition: var(--trn);
+        }
+
+        [data-util~="txt:lg:grn-drk"] {
+            color: var(--grn-drk);
+            transition: var(--trn);
+        }
+
+        [data-util~="txt:lg:blu-lgt"] {
+            color: var(--blu-lgt);
+            transition: var(--trn);
+        }
+
+        [data-util~="txt:lg:blu"] {
+            color: var(--blu);
+            transition: var(--trn);
+        }
+
+        [data-util~="txt:lg:blu-drk"] {
+            color: var(--blu-drk);
+            transition: var(--trn);
+        }
+
+        [data-util~="txt:lg:ylw-lgt"] {
+            color: var(--ylw-lgt);
+            transition: var(--trn);
+        }
+
+        [data-util~="txt:lg:ylw"] {
+            color: var(--ylw);
+            transition: var(--trn);
+        }
+
+        [data-util~="txt:lg:ylw-drk"] {
+            color: var(--ylw-drk);
+            transition: var(--trn);
+        }
+
+        [data-util~="txt:lg:pur-lgt"] {
+            color: var(--pur-lgt);
+            transition: var(--trn);
+        }
+
+        [data-util~="txt:lg:pur"] {
+            color: var(--pur);
+            transition: var(--trn);
+        }
+
+        [data-util~="txt:lg:pur-drk"] {
+            color: var(--pur-drk);
+            transition: var(--trn);
+        }
+
+        [data-util~="txt:lg:gry-lgt"] {
+            color: var(--gry-lgt);
+            transition: var(--trn);
+        }
+
+        [data-util~="txt:lg:gry"] {
+            color: var(--gry);
+            transition: var(--trn);
+        }
+
+        [data-util~="txt:lg:gry-drk"] {
+            color: var(--gry-drk);
+            transition: var(--trn);
+        }
+
+        /**********************************************************************/
+        // Formatting
+        /**********************************************************************/
+
+        [data-util~="txt:lg:bld"] {
+            font-weight: bold;
+            transition: var(--trn);
+        }
+
+        /**********************************************************************/
+        // Decoration
+        /**********************************************************************/
+
+        [data-util~="txt:lg:und"] {
+            text-decoration: underline;
+            transition: var(--trn);
+        }
+
+        /**********************************************************************/
+        // Effects
+        /**********************************************************************/
+
+        [data-util~="txt:lg:shd"] {
+            text-shadow: 2px 1px 6px var(--med);
+            transition: var(--trn);
+        }
+    }

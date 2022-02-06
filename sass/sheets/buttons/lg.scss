@@ -1,0 +1,87 @@
+@mixin btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    outline: none;
+    border: solid 2px #FFF;
+    border-radius: var(--rad);
+    background-image: linear-gradient(to bottom, var(--med), var(--med));
+    padding: 0.5px 1.5rem 1px 1.5rem;
+    height: 50px;
+    font-family: var(--txt-btn);
+    font-size: var(--siz-1);
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: 0.25px;
+    user-select: none;
+    transition: var(--trn);
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+}
+
+@mixin prm {
+    border: solid 2px #FFF;
+    background-image: linear-gradient(to bottom, var(--blu), var(--blu-drk));
+    color: #FFF;
+}
+
+@mixin sec {
+    border: solid 2px #FFF;
+    background-image: linear-gradient(to bottom, var(--ylw), var(--ylw-drk));
+    color: #FFF;
+}
+
+/******************************************************************************/
+// LARGE+
+/******************************************************************************/
+
+@media screen and (min-width: 1280px)
+
+    {
+        /**********************************************************************/
+        // Primary
+        /**********************************************************************/
+
+        [data-util~="btn:lg:fix"] {
+            @include btn;
+            @include prm;
+            width: 190px;
+        }
+
+        [data-util~="btn:lg:max"] {
+            @include btn;
+            @include prm;
+            width: 100%;
+        }
+
+        [data-util~="btn:lg:min"] {
+            @include btn;
+            @include prm;
+            width: auto;
+        }
+
+        /**********************************************************************/
+        // Secondary
+        /**********************************************************************/
+
+        [data-util~="btn-sec:lg:fix"] {
+            @include btn;
+            @include sec;
+            width: 190px;
+        }
+
+        [data-util~="btn-sec:lg:max"] {
+            @include btn;
+            @include sec;
+            width: 100%;
+        }
+
+        [data-util~="btn-sec:lg:min"] {
+            @include btn;
+            @include sec;
+            width: auto;
+        }
+    }

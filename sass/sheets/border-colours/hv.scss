@@ -1,0 +1,119 @@
+@media (hover: hover)
+
+    {
+        /**********************************************************************/
+        // White
+        /**********************************************************************/
+
+        // All sides
+        [data-util~="bor:hv:wht"]:hover {
+            border: solid 2px #FFF;
+        }
+
+        // Top
+        [data-util~="bor-t:hv:wht"]:hover {
+            border-top: solid 2px #FFF;
+        }
+
+        // Right
+        [data-util~="bor-r:hv:wht"]:hover {
+            border-right: solid 2px #FFF;
+        }
+
+        // Bottom
+        [data-util~="bor-b:hv:wht"]:hover {
+            border-bottom: solid 2px #FFF;
+        }
+
+        // Left
+        [data-util~="bor-l:hv:wht"]:hover {
+            border-left: solid 2px #FFF;
+        }
+
+        /**********************************************************************/
+        // Light
+        /**********************************************************************/
+
+        // All sides
+        [data-util~="bor:hv:lgt"]:hover {
+            border: solid 2px var(--lgt);
+        }
+
+        // Top
+        [data-util~="bor-t:hv:lgt"]:hover {
+            border-top: solid 2px var(--lgt);
+        }
+
+        // Right
+        [data-util~="bor-r:hv:lgt"]:hover {
+            border-right: solid 2px var(--lgt);
+        }
+
+        // Bottom
+        [data-util~="bor-b:hv:lgt"]:hover {
+            border-bottom: solid 2px var(--lgt);
+        }
+
+        // Left
+        [data-util~="bor-l:hv:lgt"]:hover {
+            border-left: solid 2px var(--lgt);
+        }
+
+        /**********************************************************************/
+        // Medium
+        /**********************************************************************/
+
+        // All sides
+        [data-util~="bor:hv:med"]:hover {
+            border: solid 2px var(--med);
+        }
+
+        // Top
+        [data-util~="bor-t:hv:med"]:hover {
+            border-top: solid 2px var(--med);
+        }
+
+        // Right
+        [data-util~="bor-r:hv:med"]:hover {
+            border-right: solid 2px var(--med);
+        }
+
+        // Bottom
+        [data-util~="bor-b:hv:med"]:hover {
+            border-bottom: solid 2px var(--med);
+        }
+
+        // Left
+        [data-util~="bor-l:hv:med"]:hover {
+            border-left: solid 2px var(--med);
+        }
+
+        /**********************************************************************/
+        // Dark
+        /**********************************************************************/
+
+        // All sides
+        [data-util~="bor:hv:drk"]:hover {
+            border: solid 2px var(--drk);
+        }
+
+        // Top
+        [data-util~="bor-t:hv:drk"]:hover {
+            border-top: solid 2px var(--drk);
+        }
+
+        // Right
+        [data-util~="bor-r:hv:drk"]:hover {
+            border-right: solid 2px var(--drk);
+        }
+
+        // Bottom
+        [data-util~="bor-b:hv:drk"]:hover {
+            border-bottom: solid 2px var(--drk);
+        }
+
+        // Left
+        [data-util~="bor-l:hv:drk"]:hover {
+            border-left: solid 2px var(--drk);
+        }
+    }

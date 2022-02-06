@@ -1,0 +1,55 @@
+/******************************************************************************/
+// MEDIUM+
+/******************************************************************************/
+
+@media screen and (min-width: 768px)
+
+    {
+        [data-util~="gut:md:1,0"] {
+            margin: auto;
+            width: calc(100% - 2rem);
+        }
+
+        [data-util~="gut:md:1,5"] {
+            margin: auto;
+            width: calc(100% - 3rem);
+        }
+
+        [data-util~="gut:md:2,0"] {
+            margin: auto;
+            width: calc(100% - 4rem);
+        }
+
+        [data-util~="gut:md:3,0"] {
+            margin: auto;
+            width: calc(100% - 6rem);
+        }
+    }
+
+/******************************************************************************/
+// MEDIUM-
+/******************************************************************************/
+
+@media screen and (min-width: 768px) and (max-width: 1279px)
+
+    {
+        [data-util~="gut:md.:1,0"] {
+            margin: auto;
+            width: calc(100% - 2rem);
+        }
+
+        [data-util~="gut:md.:1,5"] {
+            margin: auto;
+            width: calc(100% - 3rem);
+        }
+
+        [data-util~="gut:md.:2,0"] {
+            margin: auto;
+            width: calc(100% - 4rem);
+        }
+
+        [data-util~="gut:md.:3,0"] {
+            margin: auto;
+            width: calc(100% - 6rem);
+        }
+    }

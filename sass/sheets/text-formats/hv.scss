@@ -1,0 +1,130 @@
+/******************************************************************************/
+// HOVER
+/******************************************************************************/
+
+@media (hover: hover)
+
+    {
+        /**********************************************************************/
+        // Colours
+        /**********************************************************************/
+
+        [data-util~="txt:hv:wht"]:hover {
+            color: #FFF;
+            transition: var(--trn);
+        }
+
+        [data-util~="txt:hv:red-lgt"]:hover {
+            color: var(--red-lgt);
+            transition: var(--trn);
+        }
+
+        [data-util~="txt:hv:red"]:hover {
+            color: var(--red);
+            transition: var(--trn);
+        }
+
+        [data-util~="txt:hv:red-drk"]:hover {
+            color: var(--red-drk);
+            transition: var(--trn);
+        }
+
+        [data-util~="txt:hv:grn-lgt"]:hover {
+            color: var(--grn-lgt);
+            transition: var(--trn);
+        }
+
+        [data-util~="txt:hv:grn"]:hover {
+            color: var(--grn);
+            transition: var(--trn);
+        }
+
+        [data-util~="txt:hv:grn-drk"]:hover {
+            color: var(--grn-drk);
+            transition: var(--trn);
+        }
+
+        [data-util~="txt:hv:blu-lgt"]:hover {
+            color: var(--blu-lgt);
+            transition: var(--trn);
+        }
+
+        [data-util~="txt:hv:blu"]:hover {
+            color: var(--blu);
+            transition: var(--trn);
+        }
+
+        [data-util~="txt:hv:blu-drk"]:hover {
+            color: var(--blu-drk);
+            transition: var(--trn);
+        }
+
+        [data-util~="txt:hv:ylw-lgt"]:hover {
+            color: var(--ylw-lgt);
+            transition: var(--trn);
+        }
+
+        [data-util~="txt:hv:ylw"]:hover {
+            color: var(--ylw);
+            transition: var(--trn);
+        }
+
+        [data-util~="txt:hv:ylw-drk"]:hover {
+            color: var(--ylw-drk);
+            transition: var(--trn);
+        }
+
+        [data-util~="txt:hv:pur-lgt"]:hover {
+            color: var(--pur-lgt);
+            transition: var(--trn);
+        }
+
+        [data-util~="txt:hv:pur"]:hover {
+            color: var(--pur);
+            transition: var(--trn);
+        }
+
+        [data-util~="txt:hv:pur-drk"]:hover {
+            color: var(--pur-drk);
+            transition: var(--trn);
+        }
+
+        [data-util~="txt:hv:gry-lgt"]:hover {
+            color: var(--gry-lgt);
+            transition: var(--trn);
+        }
+
+        [data-util~="txt:hv:gry"]:hover {
+            color: var(--gry);
+            transition: var(--trn);
+        }
+
+        [data-util~="txt:hv:gry-drk"]:hover {
+            color: var(--gry-drk);
+            transition: var(--trn);
+        }
+
+        /**********************************************************************/
+        // Formatting
+        /**********************************************************************/
+
+        [data-util~="txt:hv:bld"]:hover {
+            font-weight: bold;
+        }
+
+        /**********************************************************************/
+        // Decoration
+        /**********************************************************************/
+
+        [data-util~="txt:hv:und"]:hover {
+            text-decoration: underline;
+        }
+
+        /**********************************************************************/
+        // Effects
+        /**********************************************************************/
+
+        [data-util~="txt:hv:shd"]:hover {
+            text-shadow: 2px 1px 6px var(--med);
+        }
+    }

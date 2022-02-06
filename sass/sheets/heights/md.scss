@@ -1,0 +1,39 @@
+/******************************************************************************/
+// MEDIUM+
+/******************************************************************************/
+
+@media screen and (min-width: 768px)
+
+    {
+        [data-util~="hgt:md:scn"] {
+            min-height: 100vh;
+        }
+
+        [data-util~="hgt:md:max"] {
+            height: 100%;
+        }
+
+        [data-util~="hgt:md:min"] {
+            height: auto;
+        }
+    }
+
+/******************************************************************************/
+// MEDIUM-
+/******************************************************************************/
+
+@media screen and (min-width: 768px) and (max-width: 1279px)
+
+    {
+        [data-util~="hgt:md.:scn"] {
+            min-height: 100vh;
+        }
+
+        [data-util~="hgt:md.:max"] {
+            height: 100%;
+        }
+
+        [data-util~="hgt:md.:min"] {
+            height: auto;
+        }
+    }

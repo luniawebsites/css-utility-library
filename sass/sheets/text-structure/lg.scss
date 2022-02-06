@@ -1,0 +1,102 @@
+/******************************************************************************/
+// LARGE+
+/******************************************************************************/
+
+@media screen and (min-width: 1280px)
+
+    {
+        /**********************************************************************/
+        // Fonts
+        /**********************************************************************/
+
+        [data-util~="txt:lg:std"] {
+            font-family: var(--txt-std);
+        }
+
+        [data-util~="txt:lg:fix"] {
+            font-family: var(--txt-fix);
+        }
+
+        /**********************************************************************/
+        // Sizes
+        /**********************************************************************/
+
+        [data-util~="txt:lg:0"] {
+            font-size: var(--siz-0);
+        }
+
+        [data-util~="txt:lg:1"] {
+            font-size: var(--siz-1);
+        }
+
+        [data-util~="txt:lg:2"] {
+            font-size: var(--siz-2);
+        }
+
+        [data-util~="txt:lg:3"] {
+            font-size: var(--siz-3);
+        }
+
+        [data-util~="txt:lg:4"] {
+            font-size: var(--siz-4);
+        }
+
+        [data-util~="txt:lg:5"] {
+            font-size: var(--siz-5);
+        }
+
+        [data-util~="txt:lg:6"] {
+            font-size: var(--siz-6);
+        }
+
+        [data-util~="txt:lg:7"] {
+            font-size: var(--siz-7);
+        }
+
+        [data-util~="txt:lg:8"] {
+            font-size: var(--siz-8);
+        }
+
+        /**********************************************************************/
+        // Alignments
+        /**********************************************************************/
+
+        [data-util~="txt:lg:l"] {
+            text-align: left;
+        }
+
+        [data-util~="txt:lg:c"] {
+            text-align: center;
+        }
+
+        [data-util~="txt:lg:r"] {
+            text-align: right;
+        }
+
+        [data-util~="txt:lg:j"] {
+            text-align: justify;
+            text-justify: inter-word;
+        }
+
+        [data-util~="txt:lg:jc"] {
+            text-align: justify;
+            text-justify: inter-word;
+            text-align-last: center;
+        }
+
+        /**********************************************************************/
+        // Structure
+        /**********************************************************************/
+
+        [data-util~="txt:lg:nbr"] {
+            white-space: pre;
+        }
+
+        [data-util~="txt:lg:trn"] {
+            display: table-row;
+            overflow: hidden;
+            white-space: nowrap;
+            min-width: 0;
+            text-overflow: ellipsis;
+        }
+    }

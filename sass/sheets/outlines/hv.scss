@@ -1,0 +1,23 @@
+/******************************************************************************/
+// HOVER
+/******************************************************************************/
+
+@media (hover: hover)
+
+    {
+        [data-util~="out:hv:wht"]:hover {
+            box-shadow: 0 0 0 2px #FFF;
+        }
+
+        [data-util~="out:hv:lgt"]:hover {
+            box-shadow: 0 0 0 2px var(--lgt);
+        }
+
+        [data-util~="out:hv:med"]:hover {
+            box-shadow: 0 0 0 2px var(--med);
+        }
+
+        [data-util~="out:hv:drk"]:hover {
+            box-shadow: 0 0 0 2px var(--drk);
+        }
+    }

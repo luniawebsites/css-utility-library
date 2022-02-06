@@ -1,0 +1,27 @@
+/******************************************************************************/
+// LARGE+
+/******************************************************************************/
+
+@media screen and (min-width: 1280px)
+
+    {
+        [data-util~="gut:lg:1,0"] {
+            margin: auto;
+            width: calc(100% - 2rem);
+        }
+
+        [data-util~="gut:lg:1,5"] {
+            margin: auto;
+            width: calc(100% - 3rem);
+        }
+
+        [data-util~="gut:lg:2,0"] {
+            margin: auto;
+            width: calc(100% - 4rem);
+        }
+
+        [data-util~="gut:lg:3,0"] {
+            margin: auto;
+            width: calc(100% - 6rem);
+        }
+    }

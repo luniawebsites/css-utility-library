@@ -1,0 +1,35 @@
+/******************************************************************************/
+// MEDIUM+
+/******************************************************************************/
+
+@media screen and (min-width: 768px)
+
+    {
+        [data-util~="dis:md:hid"] {
+            display: none !important;
+            padding: 0;
+        }
+
+        [data-util~="dis:md:hid-emp"]:empty {
+            display: none;
+            padding: 0;
+        }
+    }
+
+/******************************************************************************/
+// SMALL-
+/******************************************************************************/
+
+@media screen and (min-width: 768px) and (max-width: 1279px)
+
+    {
+        [data-util~="dis:md.:hid"] {
+            display: none !important;
+            padding: 0;
+        }
+
+        [data-util~="dis:md.:hid-emp"]:empty {
+            display: none;
+            padding: 0;
+        }
+    }

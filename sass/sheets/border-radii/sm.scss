@@ -1,0 +1,65 @@
+/******************************************************************************/
+// SMALL+
+/******************************************************************************/
+
+@media screen and (min-width: 360px)
+
+    {
+        [data-util~="bor:sm:rad"] {
+            border-radius: var(--rad);
+            overflow: hidden;
+        }
+
+        [data-util~="bor-tr:sm:rad"] {
+            border-top-right-radius: var(--rad);
+            overflow: hidden;
+        }
+
+        [data-util~="bor-br:sm:rad"] {
+            border-bottom-right-radius: var(--rad);
+            overflow: hidden;
+        }
+
+        [data-util~="bor-bl:sm:rad"] {
+            border-bottom-left-radius: var(--rad);
+            overflow: hidden;
+        }
+
+        [data-util~="bor-tl:sm:rad"] {
+            border-top-left-radius: var(--rad);
+            overflow: hidden;
+        }
+    }
+
+/******************************************************************************/
+// SMALL-
+/******************************************************************************/
+
+@media screen and (min-width: 360px) and (max-width: 767px)
+
+    {
+        [data-util~="bor:sm.:rad"] {
+            border-radius: var(--rad);
+            overflow: hidden;
+        }
+
+        [data-util~="bor-tr:sm.:rad"] {
+            border-top-right-radius: var(--rad);
+            overflow: hidden;
+        }
+
+        [data-util~="bor-br:sm.:rad"] {
+            border-bottom-right-radius: var(--rad);
+            overflow: hidden;
+        }
+
+        [data-util~="bor-bl:sm.:rad"] {
+            border-bottom-left-radius: var(--rad);
+            overflow: hidden;
+        }
+
+        [data-util~="bor-tl:sm.:rad"] {
+            border-top-left-radius: var(--rad);
+            overflow: hidden;
+        }
+    }

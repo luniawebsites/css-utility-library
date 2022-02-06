@@ -1,0 +1,40 @@
+/******************************************************************************/
+// SMALL+
+/******************************************************************************/
+
+@media screen and (min-width: 360px)
+
+    {
+        [data-util~="hgt:sm:scn"] {
+            min-height: 100vh;
+        }
+
+        [data-util~="hgt:sm:max"] {
+            height: 100%;
+        }
+
+        [data-util~="hgt:sm:min"] {
+            height: auto;
+        }
+    }
+
+
+/******************************************************************************/
+// SMALL-
+/******************************************************************************/
+
+@media screen and (min-width: 360px) and (max-width: 767px)
+
+    {
+        [data-util~="hgt:sm.:scn"] {
+            min-height: 100vh;
+        }
+
+        [data-util~="hgt:sm.:max"] {
+            height: 100%;
+        }
+
+        [data-util~="hgt:sm.:min"] {
+            height: auto;
+        }
+    }
