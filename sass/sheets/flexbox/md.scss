@@ -219,12 +219,12 @@
 
         // Justify & centre
 
-        // [data-util~="row:md:jc"] {
-        //     display: flex;
-        //     flex-direction: row;
-        // 	align-items: center;
-        // 	justify-content: space-between;
-        // }
+        [data-util~="row:md:jc"] {
+            display: flex;
+            flex-direction: row;
+        	align-items: center;
+        	justify-content: space-between;
+        }
 
         // Justify & bottom
 
@@ -458,12 +458,12 @@
 
         // Justify & centre
 
-        // [data-util~="row:md.:jc"] {
-        //     display: flex;
-        //     flex-direction: row;
-        // 	align-items: center;
-        // 	justify-content: space-between;
-        // }
+        [data-util~="row:md.:jc"] {
+            display: flex;
+            flex-direction: row;
+        	align-items: center;
+        	justify-content: space-between;
+        }
 
         // Justify & bottom
 

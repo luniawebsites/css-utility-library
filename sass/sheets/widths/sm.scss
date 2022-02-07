@@ -62,51 +62,51 @@
 @media screen and (min-width: 360px) and (max-width: 767px)
 
     {
-        [data-util~="wid:sm.:10."] {
+        [data-util~="wid:sm.:10"] {
             width: 10%;
         }
 
-        [data-util~="wid:sm.:20."] {
+        [data-util~="wid:sm.:20"] {
             width: 20%;
         }
 
-        [data-util~="wid:sm.:30."] {
+        [data-util~="wid:sm.:30"] {
             width: 30%;
         }
 
-        [data-util~="wid:sm.:40."] {
+        [data-util~="wid:sm.:40"] {
             width: 40%;
         }
 
-        [data-util~="wid:sm.:50."] {
+        [data-util~="wid:sm.:50"] {
             width: 50%;
         }
 
-        [data-util~="wid:sm.:60."] {
+        [data-util~="wid:sm.:60"] {
             width: 60%;
         }
 
-        [data-util~="wid:sm.:70."] {
+        [data-util~="wid:sm.:70"] {
             width: 70%;
         }
 
-        [data-util~="wid:sm.:80."] {
+        [data-util~="wid:sm.:80"] {
             width: 80%;
         }
 
-        [data-util~="wid:sm:90."] {
+        [data-util~="wid:sm:90"] {
             width: 90%;
         }
 
-        [data-util~="wid:sm.:max."] {
+        [data-util~="wid:sm.:max"] {
             width: 100%;
         }
 
-        [data-util~="wid:sm.:min."] {
+        [data-util~="wid:sm.:min"] {
             width: auto;
         }
 
-        [data-util~="wid:sm.:lmt."] {
+        [data-util~="wid:sm.:lmt"] {
             max-width: 1150px;
         }
     }

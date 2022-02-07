@@ -27,3 +27,4 @@ Apply any combination of the below to a block-level HTML element.
 |                       |                   | `rt` position children right & top     |
 |                       |                   | `rc` position children right & centre  |
 |                       |                   | `rb` position children right & bottom  |
+|                       |                   | `jc` position children justified & centre  |
